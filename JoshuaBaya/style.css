@@ -1,0 +1,189 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Global styles*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.me{
+    text-decoration: overline;
+    color: #ff5100;
+}
+.nav-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #070e4b;
+color: goldenrod;
+padding: 1.2rem 4rem;
+}
+
+.nav-link {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link > a {
+text-decoration: none;
+color: rgb(248, 248, 248);
+font-size: 18px;
+}
+
+.home{
+    background-color: #f1ebeb;
+    min-height: 70vh;
+}
+
+.home-image{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top:20px;
+    color: #070e4b;
+    font-size: 20px;
+    
+}
+
+img {
+    width: 60%; /* Make the image fill its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra space below the image */
+    max-width: 50%; /* Ensure the image doesn't exceed its original size */
+}
+
+.home-content {
+    width: 50%;
+}
+
+.home-content > h1 {
+font-size: 3rem;
+width: 100%;
+color:#ff5100 ;
+padding-top: 20%;
+}
+
+#about {
+    background-color: #ff5100;
+    min-height: 30vh;
+}
+
+.aboutME {
+  text-align: center;
+  width: fit-content;
+  color: white;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+#about .me{
+    text-decoration: overline;
+    color: #070e4b;
+}
+
+#skills h2{
+    text-align: center;
+    font-size: 32px;
+    color: #070e4b;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container-skills {
+  width: 100%;  
+  background-color: #ffffff;  
+  padding-bottom: 10px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 10px;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 32px;
+    color: #070e4b;
+}
+input[type=text],[type=email], textarea {
+    width: 100%;  
+    padding: 12px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    box-sizing: border-box;  
+    margin-top: 6px;  
+    margin-bottom: 16px;  
+    resize: vertical  
+  }
+
+  
+  /* Style the submit button with a specific background color etc */
+  .btn{
+    background-color: #ff5100;
+    color: white;
+    padding: 15px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+.btn:hover {
+    background-color: #070e4b;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+footer {
+    background-color: #070e4b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
